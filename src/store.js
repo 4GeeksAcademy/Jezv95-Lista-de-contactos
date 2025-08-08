@@ -85,7 +85,6 @@ export default function storeReducer(store, action = {}) {
 
        case 'load_contacts':
         const { initialContacts} = action.payload
-         console.log('load_contacts'+ initialContacts);
 
       return {
         ...store,
